@@ -3,7 +3,6 @@ import tensorflow as tf
 import numpy as np
 import random
 import pickle
-from sklearn.preprocessing import LabelEncoder
 # Load the trained model
 model = tf.keras.models.load_model("mentalhealth_chatbot_model_final.h5.keras")
 
